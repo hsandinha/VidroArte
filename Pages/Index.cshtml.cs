@@ -19,8 +19,8 @@ namespace vidroarte.Views.Home
         }
         public void OnPost(string Logar, string cadastrar)
         {
-            string connectionString = "Data Source=LAPTOP-B2EBJ1MT;Initial Catalog=vidroarte;Integrated Security=True";
-            //string connectionString = "Data Source=vidroarte.database.windows.net;Initial Catalog=vidroarte;User ID=vidroarte;Password='Jato@12345'";
+           // string connectionString = "Data Source=LAPTOP-B2EBJ1MT;Initial Catalog=vidroarte;Integrated Security=True";
+            string connectionString = "Data Source=vidroarte.database.windows.net;Initial Catalog=vidroarte;User ID=vidroarte;Password='Jato@12345'";
             SqlConnection conexao = new(connectionString);
 
             if (!string.IsNullOrEmpty(Logar))
