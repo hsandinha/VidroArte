@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'vidroarte'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACEDAB1081DA455C8281DA207B823C23 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6526A96C45A24FC0AEFEFB2B03411F47 }}
           package: .
